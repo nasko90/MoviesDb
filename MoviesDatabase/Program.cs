@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.IO;
 using MoviesDatabase.ModelParsers;
 using MoviesDatabase.Converters;
+using MovieDatabase.PostgreeDatabase;
+using MovieDatabase.PostgreeDatabase.Models;
 
 namespace MoviesDatabase
 {
@@ -16,7 +18,7 @@ namespace MoviesDatabase
         public static void Main(string[] args)
         {
 
-
+            /*
             var path = "Movie.json";
             var actorsPath = "Actors.json";
             var parser = new Parser();
@@ -45,6 +47,8 @@ namespace MoviesDatabase
 
             db.User.Add(user);
             db.SaveChanges();
+            */
+           
         }
     }
 }

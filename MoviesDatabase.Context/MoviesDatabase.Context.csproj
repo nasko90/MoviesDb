@@ -49,7 +49,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Fore testing\IDataSesion.cs" />
+    <Compile Include="For Testing\IDataSesion.cs" />
     <Compile Include="Migrations\201705300720442_InitialCreate.cs" />
     <Compile Include="Migrations\201705300720442_InitialCreate.Designer.cs">
       <DependentUpon>201705300720442_InitialCreate.cs</DependentUpon>
@@ -76,7 +76,7 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="MovieDatabaseContext.cs" />
-    <Compile Include="Fore testing\MovieDataSession.cs" />
+    <Compile Include="For Testing\MovieDataSession.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

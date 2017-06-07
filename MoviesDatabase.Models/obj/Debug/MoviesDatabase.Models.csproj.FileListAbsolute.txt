@@ -35,6 +35,5 @@ C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramew
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.xml
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
