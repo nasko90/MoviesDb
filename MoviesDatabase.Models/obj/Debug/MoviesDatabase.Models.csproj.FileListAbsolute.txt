@@ -28,3 +28,13 @@ D:\Курсове Телерик\Бази данни\Курсов проект\M
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll.config
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb

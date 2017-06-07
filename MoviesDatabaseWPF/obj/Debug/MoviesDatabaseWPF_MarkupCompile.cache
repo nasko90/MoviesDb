@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\
 MoviesDatabaseWPF
 none
 false
 DEBUG;TRACE
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\App.xaml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\App.xaml
 4-1663943384
 
 11-385204507
-19-1821221131
+19-634260540
 MainWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
 
 False

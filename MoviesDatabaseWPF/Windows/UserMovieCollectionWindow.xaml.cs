@@ -92,7 +92,19 @@ namespace MoviesDatabaseWPF.Windows
 
         private void durationColumnHeader_Click(object sender, RoutedEventArgs e)
         {
-            
+            this.HeaderClicks++;
+            var headerName = GetColumnHeaderName(1);
+
+            if (this.HeaderClicks % 2 != 0)
+            {
+                var movieModels = ViewModelMovie.ConvertMoviesToVeiwModelMovies(OrderMovieAscending(headerName));
+                this.userMovieColection.ItemsSource = movieModels;
+            }
+            else
+            {
+                var movieModels = ViewModelMovie.ConvertMoviesToVeiwModelMovies(OrderMovieDescending(headerName));
+                this.userMovieColection.ItemsSource = movieModels;
+            }
         }
 
         private void boxOfficeColumnHeader_Click(object sender, RoutedEventArgs e)

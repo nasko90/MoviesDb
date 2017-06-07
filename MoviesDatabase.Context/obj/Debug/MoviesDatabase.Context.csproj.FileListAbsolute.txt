@@ -59,3 +59,22 @@ C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.makinguser_moviesratingandisWatchedcolumsnullable.resources
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll.config
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.InitialCreate.resources
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingdateofbirhtcolumntoActorandDirector.resources
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingCountryIdcolumntoActorandDirector.resources
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingcolumnGendertoActorsandDirectors.resources
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingUniqueindextoCountryName.resources
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.makinguser_moviesratingandisWatchedcolumsnullable.resources
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csproj.GenerateResource.Cache
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb

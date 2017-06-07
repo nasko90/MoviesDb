@@ -2,7 +2,10 @@
 using MoviesDatabase.Models.Models;
 using MoviesDatabaseWPF.Classes;
 using MoviesDatabaseWPF.ViewModelObjects;
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Windows;
 
 namespace MoviesDatabaseWPF.Windows
@@ -105,16 +108,18 @@ namespace MoviesDatabaseWPF.Windows
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
+            var selectedMovies = new List<ViewModelMovie>();
+            var listOfMoviesThatExist = new StringBuilder();
+            this.allreadyAddedMovieToUserErrorText.Visibility = Visibility.Hidden;
+
             if (filteredMovies.SelectedItems.Count == 0)
             {
                 searchError.Text = "No movie selected!";
             }
             else
             {
-                var selectedMovies = new List<ViewModelMovie>();
-
                 foreach (var movie in filteredMovies.SelectedItems)
-                {
+                {                   
                     selectedMovies.Add((ViewModelMovie)movie);
                 }
 
@@ -123,8 +128,24 @@ namespace MoviesDatabaseWPF.Windows
                     var userMovies = new Movie_User();
                     userMovies.User = this.currentUser;
                     userMovies.Movie = ConvertFromVeiwModelMovietoMovie(movie);
-                    db.Movies_Users.Add(userMovies);
-                    db.SaveChanges();
+                    bool isMovieExisting = CheckIfUserAllreadyHaveThisMovie(userMovies);
+
+                    if (isMovieExisting)
+                    {
+                        listOfMoviesThatExist.AppendLine(movie.Title);
+                    }
+                    else
+                    {
+                        db.Movies_Users.Add(userMovies);
+                        db.SaveChanges();
+                    }                   
+                }
+
+                if (listOfMoviesThatExist.Length > 0)
+                {
+                    this.allreadyAddedMovieToUserErrorText.Visibility = Visibility.Visible;
+                    this.allreadyAddedMovieToUserErrorText.Text = 
+                        $"This movies already exist in the user collection: {Environment.NewLine}{listOfMoviesThatExist.ToString()}";
                 }
             }
         }
@@ -141,6 +162,13 @@ namespace MoviesDatabaseWPF.Windows
             UserMovieCollectionWindow userCollectionWindow = new UserMovieCollectionWindow(this.db, this.currentUser);
             userCollectionWindow.Show();
             this.Close();
+        }       
+
+        private bool CheckIfUserAllreadyHaveThisMovie(Movie_User movieUser)
+        {
+            bool isExisting = db.Movies_Users.Any(x => x.User.Id == movieUser.User.Id && x.Movie.Id == movieUser.Movie.Id);
+
+            return isExisting;
         }
     }
 }
