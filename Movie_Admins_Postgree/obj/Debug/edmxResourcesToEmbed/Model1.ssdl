@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Movie_AdminsModel.Store" Provider="Devart.Data.PostgreSql" ProviderManifestToken="PostgreSQL, 9.6.3" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admins">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="text" />
+    <Property Name="password" Type="text" Nullable="false" />
+    <Property Name="email" Type="text" Nullable="false" />
+  </EntityType>
+  <EntityType Name="admins_permissions">
+    <Key>
+      <PropertyRef Name="admin_id" />
+      <PropertyRef Name="permission_id" />
+    </Key>
+    <Property Name="admin_id" Type="int" Nullable="false" />
+    <Property Name="permission_id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="permissions">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="name" Type="text" />
+  </EntityType>
+  <Association Name="admins_permissions_admin_id_fkey">
+    <End Role="admins" Type="Self.admins" Multiplicity="1" />
+    <End Role="admins_permissions" Type="Self.admins_permissions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="admins">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="admins_permissions">
+        <PropertyRef Name="admin_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="admins_permissions_permission_id_fkey">
+    <End Role="permissions" Type="Self.permissions" Multiplicity="1" />
+    <End Role="admins_permissions" Type="Self.admins_permissions" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="permissions">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="admins_permissions">
+        <PropertyRef Name="permission_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Movie_AdminsModelStoreContainer">
+    <EntitySet Name="admins" EntityType="Self.admins" Schema="public" store:Type="Tables" />
+    <EntitySet Name="admins_permissions" EntityType="Self.admins_permissions" Schema="public" store:Type="Tables" />
+    <EntitySet Name="permissions" EntityType="Self.permissions" Schema="public" store:Type="Tables" />
+    <AssociationSet Name="admins_permissions_admin_id_fkey" Association="Self.admins_permissions_admin_id_fkey">
+      <End Role="admins" EntitySet="admins" />
+      <End Role="admins_permissions" EntitySet="admins_permissions" />
+    </AssociationSet>
+    <AssociationSet Name="admins_permissions_permission_id_fkey" Association="Self.admins_permissions_permission_id_fkey">
+      <End Role="permissions" EntitySet="permissions" />
+      <End Role="admins_permissions" EntitySet="admins_permissions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

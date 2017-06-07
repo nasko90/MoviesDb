@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Movie_AdminsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="permissions" Relationship="Self.admins_permissions" FromRole="admins" ToRole="permissions" />
+  </EntityType>
+  <EntityType Name="permission">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="admins" Relationship="Self.admins_permissions" FromRole="permissions" ToRole="admins" />
+  </EntityType>
+  <Association Name="admins_permissions">
+    <End Role="admins" Type="Self.admin" Multiplicity="*" />
+    <End Role="permissions" Type="Self.permission" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="Movie_AdminsEntities3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admins" EntityType="Self.admin" />
+    <EntitySet Name="permissions" EntityType="Self.permission" />
+    <AssociationSet Name="admins_permissions" Association="Self.admins_permissions">
+      <End Role="admins" EntitySet="admins" />
+      <End Role="permissions" EntitySet="permissions" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -46,3 +46,4 @@ C:\Users\Nadia\Desktop\Отборен проект\MoviesDatabase.Models\bin\Deb
 C:\Users\Nadia\Desktop\Отборен проект\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Nadia\Desktop\Отборен проект\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
 C:\Users\Nadia\Desktop\Отборен проект\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
+C:\Users\Nadia\Desktop\Отборен проект\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache

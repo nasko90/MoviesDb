@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Movie_AdminsModelStoreContainer" CdmEntityContainer="Movie_AdminsEntities3">
+    <EntitySetMapping Name="admins">
+      <EntityTypeMapping TypeName="Movie_AdminsModel.admin">
+        <MappingFragment StoreEntitySet="admins">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="permissions">
+      <EntityTypeMapping TypeName="Movie_AdminsModel.permission">
+        <MappingFragment StoreEntitySet="permissions">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="admins_permissions" TypeName="Movie_AdminsModel.admins_permissions" StoreEntitySet="admins_permissions">
+      <EndProperty Name="admins">
+        <ScalarProperty Name="id" ColumnName="admin_id" />
+      </EndProperty>
+      <EndProperty Name="permissions">
+        <ScalarProperty Name="id" ColumnName="permission_id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
