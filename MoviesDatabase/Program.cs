@@ -1,17 +1,4 @@
-﻿using MoviesDatabase.Context;
-using MoviesDatabase.Models.Models;
-using System;
-using System.Linq;
-using System.Windows.Controls;
-using Newtonsoft.Json;
-using System.Collections.Generic;
-using System.IO;
-using MoviesDatabase.ModelParsers;
-using MoviesDatabase.Converters;
-using MovieDatabase.PostgreeDatabase;
-using MovieDatabase.PostgreeDatabase.Models;
-
-namespace MoviesDatabase
+﻿namespace MoviesDatabase
 {
     public class Program
     {
