@@ -1,0 +1,62 @@
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\MoviesDatabase.exe.config
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\MoviesDatabase.exe
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\MoviesDatabase.pdb
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\EntityFramework.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\MoviesDatabase.Context.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\MoviesDatabase.Models.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\MoviesDatabase.Context.pdb
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\MoviesDatabase.Models.pdb
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\EntityFramework.xml
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\obj\Debug\MoviesDatabase.csprojResolveAssemblyReference.cache
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\obj\Debug\MoviesDatabase.exe
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase\obj\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.exe.config
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\obj\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\obj\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\obj\Debug\MoviesDatabase.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\Newtonsoft.Json.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase\bin\Debug\Newtonsoft.Json.xml
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.exe.config
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\obj\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\obj\Debug\MoviesDatabase.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\MoviesDatabase.exe.config
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\obj\Debug\MoviesDatabase.exe
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\obj\Debug\MoviesDatabase.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\MoviesDatabase.exe
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\MoviesDatabase.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\EntityFramework.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\MoviesDatabase.Context.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\MoviesDatabase.Models.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\Newtonsoft.Json.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\MoviesDatabase.Context.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\MoviesDatabase.Models.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\EntityFramework.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\bin\Debug\Newtonsoft.Json.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase\obj\Debug\MoviesDatabase.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\Newtonsoft.Json.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\bin\Debug\Newtonsoft.Json.xml
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase\obj\Debug\MoviesDatabase.csprojResolveAssemblyReference.cache

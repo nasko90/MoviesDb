@@ -1,0 +1,33 @@
+﻿<Window x:Class="MoviesDatabaseWPF.Windows.UserMovieCollectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoviesDatabaseWPF.Windows"
+        mc:Ignorable="d"
+        Title="UserMovieCollectionWindow" Height="300" Width="1000" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="329*"/>
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="userMovieColection"  Visibility="Visible" HorizontalAlignment="Left" Height="auto" VerticalAlignment="Top" Width="842" Margin="40,101,0,0" Grid.ColumnSpan="2"   >
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="200" DisplayMemberBinding="{Binding Title}">
+                        <GridViewColumnHeader Tag="Title" Click="titleColumnHeader_Click">Title</GridViewColumnHeader>
+                    </GridViewColumn>
+                    <GridViewColumn Width="80" DisplayMemberBinding="{Binding Duration}">
+                        <GridViewColumnHeader Tag="Duration" Click="durationColumnHeader_Click">Duration</GridViewColumnHeader>
+                    </GridViewColumn>
+                    <GridViewColumn Header="Genres" Width="130" DisplayMemberBinding="{Binding Genres}"/>
+                    <GridViewColumn Header="Director" Width="100" DisplayMemberBinding="{Binding Director}"/>
+                    <GridViewColumn Header="Actors" Width="225" DisplayMemberBinding="{Binding Actors}"/>
+                    <GridViewColumn  Width="100" DisplayMemberBinding="{Binding BoxOffice}">
+                        <GridViewColumnHeader Tag="BoxOffice" Click="boxOfficeColumnHeader_Click">BoxOffice</GridViewColumnHeader>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

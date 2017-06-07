@@ -1,0 +1,61 @@
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll.config
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.pdb
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\EntityFramework.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.pdb
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\EntityFramework.xml
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csprojResolveAssemblyReference.cache
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
+c:\users\nadia\documents\visual studio 2015\Projects\MoviesDatabase.Models\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll.config
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll.config
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\EntityFramework.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\EntityFramework.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csprojResolveAssemblyReference.cache
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.InitialCreate.resources
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csproj.GenerateResource.Cache
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingdateofbirhtcolumntoActorandDirector.resources
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingCountryIdcolumntoActorandDirector.resources
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingcolumnGendertoActorsandDirectors.resources
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingUniqueindextoCountryName.resources
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll.config
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.InitialCreate.resources
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingdateofbirhtcolumntoActorandDirector.resources
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingCountryIdcolumntoActorandDirector.resources
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingcolumnGendertoActorsandDirectors.resources
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingUniqueindextoCountryName.resources
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csproj.GenerateResource.Cache
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.makinguser_moviesratingandisWatchedcolumsnullable.resources

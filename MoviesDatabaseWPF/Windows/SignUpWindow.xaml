@@ -1,0 +1,29 @@
+﻿<Window x:Class="MoviesDatabaseWPF.SignUpWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoviesDatabaseWPF"
+        mc:Ignorable="d"
+        Title="SignUpWindow" Height="700" Width="700" WindowState="Maximized">
+    <Grid>
+        <TextBlock x:Name="signUpText" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Sign Up!" VerticalAlignment="Top" Height="55" Margin="92,30,0,0" Width="166" FontSize="36" FontWeight="Bold" FontStyle="Italic" FontFamily="SimSun"/>
+        <TextBlock x:Name="itsFreeText" HorizontalAlignment="Left" TextWrapping="Wrap" Text="It's free ( and always will be )" VerticalAlignment="Top" Margin="92,85,0,0" Height="60" Width="306" FontSize="24"/>
+        <TextBlock x:Name="userNameTextBlock" TextAlignment="Right" HorizontalAlignment="Left" TextWrapping="Wrap" Text="User Name:" VerticalAlignment="Top" Margin="87,175,0,0" Height="43" Width="127" FontSize="24"/>
+        <TextBox x:Name="userName" HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" Margin="229,175,0,0" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBlock x:Name="passTextBox" TextAlignment="Right" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password:" VerticalAlignment="Top" Margin="92,244,0,0" Height="43" Width="127" FontSize="24"/>
+        <PasswordBox x:Name="password" PasswordChanged="password_PasswordChanged" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="229,244,0,0" Height="43" Width="368" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"/>
+        <TextBlock x:Name="passwordVerifyBox" TextAlignment="Right" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Password verify:" VerticalAlignment="Top" Margin="41,340,0,0" Height="43" Width="178" FontSize="24"/>
+        <PasswordBox x:Name="passwordVerify" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="229,340,0,0" Height="43" Width="368" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"/>
+        <TextBlock x:Name="fullNameBlock" TextAlignment="Right" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Full name:" VerticalAlignment="Top" Margin="87,409,0,0" Height="43" Width="127" FontSize="24"/>
+        <TextBox x:Name="fullName" HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" Margin="229,409,0,0" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Height="43" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="368" Margin="229,481,0,0" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"/>
+        <TextBlock x:Name="email_TextBlock" TextAlignment="Right" HorizontalAlignment="Left" TextWrapping="Wrap" Text="E-mail:" VerticalAlignment="Top" Margin="87,481,0,0" Height="43" Width="127" FontSize="24"/>
+        <Button x:Name="signUp_button" Content="Sign Up!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="181" Margin="229,564,0,0" Height="66" Background="#FF97D38D" FontSize="36" Click="signUp_button_Click"/>
+        <TextBlock x:Name="passErrorMessage" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" FontSize="18" VerticalAlignment="Top" Margin="229,382,0,0" Height="27" Width="368"/>
+        <ProgressBar Name="passBar" Maximum="100" HorizontalAlignment="Left" Height="10"  Margin="229,309,0,0" VerticalAlignment="Top" Width="368"/>
+        <TextBlock x:Name="userNameExist" HorizontalAlignment="Left" Margin="229,145,0,0" TextWrapping="Wrap" FontSize="12" Text="" VerticalAlignment="Top" Height="30" Width="368"/>
+        <TextBlock x:Name="succesfullyCreatedUser" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="229,529,0,0" Height="30" Width="261"/>
+        <Button x:Name="backToSignIn" Visibility="Hidden"  Content="Go back to Sign in" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="166" Margin="431,559,0,0" Height="71" Click="backToSignIn_Click"/>
+    </Grid>
+</Window>
