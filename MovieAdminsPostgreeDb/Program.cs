@@ -22,8 +22,6 @@ namespace MovieAdminsPostgreeDb
                 Permissions = {movieAdminsContext.Permissions.Find(1), movieAdminsContext.Permissions.Find(2)}
             };
 
-
-
             movieAdminsContext.Admins.Add(admin);
             movieAdminsContext.SaveChanges();
         }
