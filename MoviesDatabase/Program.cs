@@ -8,8 +8,6 @@ using System.Collections.Generic;
 using System.IO;
 using MoviesDatabase.ModelParsers;
 using MoviesDatabase.Converters;
-using MovieDatabase.PostgreeDatabase;
-using MovieDatabase.PostgreeDatabase.Models;
 
 namespace MoviesDatabase
 {

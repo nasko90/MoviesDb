@@ -37,3 +37,13 @@ C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramew
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll.config
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\EntityFramework.dll
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\EntityFramework.xml
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb

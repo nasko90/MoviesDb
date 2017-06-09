@@ -9,15 +9,16 @@
     <Grid>
         <TextBox x:Name="userNameInput"   HorizontalAlignment="Left" Height="44" Margin="242,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160"  FontSize="24"/>
         <Border BorderThickness="1" BorderBrush="Black" Margin="83,61,280,214">
-            <TextBlock x:Name="user" TextAlignment="Center" TextWrapping="Wrap" Margin="-1" FontSize="24"><Run Text=" User Name"/></TextBlock>
+            <TextBlock x:Name="user"  TextAlignment="Right" TextWrapping="Wrap" Margin="-1" FontSize="24"><Run Text=" User Name "/></TextBlock>
         </Border>
         <Border BorderThickness="1" BorderBrush="Black" Margin="83,125,280,150">
-            <TextBlock Name="password" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="24" Text="Password" Height="44" Margin="0,-1" HorizontalAlignment="Left" Width="152"/>
+            <TextBlock Name="password" TextAlignment="Right" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="24" Text="Password " Height="44" Margin="0,-1" HorizontalAlignment="Left" Width="152"/>
         </Border>
         <PasswordBox x:Name="passwordInput"  HorizontalAlignment="Left" Margin="242,125,0,0" VerticalAlignment="Top" Width="160" Height="44" FontSize="24"/>
         <Button x:Name="login" Content="LOG IN" VerticalAlignment="Top" RenderTransformOrigin="2.21,11.413" Margin="83,196,115,0" Height="49" FontSize="24" Click="login_Click"/>
         <TextBlock x:Name="userAndPassErrors" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="83,174,0,0" Height="22" Width="319"/>
-        <TextBlock x:Name="signUp" HorizontalAlignment="Left" Margin="83,267,0,0" TextWrapping="Wrap" Text="You are new to Movie Db? "  VerticalAlignment="Top" Height="24" Width="187" FontSize="16"/>
-        <Button x:Name="signUpButton" BorderBrush="White"  Content="Sign Up" VerticalAlignment="Top" Margin="275,268,178,0" FontSize="14" Background="{x:Null}" Click="signUpButton_Click"/>
+        <TextBlock x:Name="signUp" HorizontalAlignment="Left" Margin="83,273,0,0" TextWrapping="Wrap" Text="You are new to Movie Db? "  VerticalAlignment="Top" Height="24" Width="187" FontSize="16"/>
+        <Button x:Name="signUpButton" BorderBrush="White"  Content="Sign Up" VerticalAlignment="Top" Margin="275,270,178,0" FontSize="16" Background="{x:Null}" Click="signUpButton_Click"/>
+        <CheckBox x:Name="LogAsAdminCheckBox" Content="Log as Admin" HorizontalAlignment="Left" Margin="192,247,0,0" VerticalAlignment="Top" FontSize="14"/>
     </Grid>
 </Window>

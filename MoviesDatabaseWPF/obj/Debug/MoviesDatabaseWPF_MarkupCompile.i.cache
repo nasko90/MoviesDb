@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabaseWPF\obj\Debug\
 MoviesDatabaseWPF
 none
 false
 DEBUG;TRACE
-C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\App.xaml
-4-1663943384
+C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabaseWPF\App.xaml
+5-903921717
 
-151759802737
-19-634260540
-MainWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
+16-1281469766
+76-1779336463
+MainWindow.xaml;Windows\AdminWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
 
 True
 

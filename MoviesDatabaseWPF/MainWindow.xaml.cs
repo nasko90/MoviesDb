@@ -15,6 +15,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Drawing;
+using MovieAdminsPostgreeDb.PostgreeDb.Context;
 using MoviesDatabaseWPF.Windows;
 
 namespace MoviesDatabaseWPF
@@ -24,6 +25,8 @@ namespace MoviesDatabaseWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        private const string userNameErrorMessage = "Please enter a valid username! ";
+        private const string passwordErrorMessage = "Incorrect password. Please try again!";
         public MainWindow()
         {
             InitializeComponent();
@@ -31,32 +34,67 @@ namespace MoviesDatabaseWPF
 
         private void login_Click(object sender, RoutedEventArgs e)
         {
-            var db = new MovieDatabaseContext();
-            var checker = new Checker(db);
-            var user = checker.CheckUser(this.userNameInput.Text);
             bool isPassCorrect = false;
+            var movieDatabase = new MovieDatabaseContext();
 
-            if (user != null)
+            if (this.LogAsAdminCheckBox.IsChecked == true)
             {
-              isPassCorrect   = checker.IsPassCorrect(passwordInput.Password.ToString(), user);
+                var adminDb = new MovieAdminsContext();
+                var checker = new Checker(adminDb);
+                var admin = checker.CheckAdmin(this.userNameInput.Text);
+
+                if (user != null)
+                {
+                    isPassCorrect = checker.IsAdminPassCorrect(passwordInput.Password.ToString(), admin);
+                }
+
+                if (user == null)
+                {
+                    this.userAndPassErrors.Text = userNameErrorMessage;
+                    this.userNameInput.Clear();
+                }
+                else if (isPassCorrect)
+                {
+                    AdminWindow logedInWindow = new AdminWindow(movieDatabase, adminDb, admin);
+                    logedInWindow.Show();
+                    this.Close();
+                }
+                else
+                {
+                    this.userAndPassErrors.Text = passwordErrorMessage;
+                    this.passwordInput.Clear();
+                }
             }
 
-            if (user == null)
-            {
-                this.userAndPassErrors.Text = "Please enter a valid username! ";
-                this.userNameInput.Clear();
-            }
-            else if (isPassCorrect)
-            {
-                LoggedInWindow logedInWindow = new LoggedInWindow(db, user);
-                logedInWindow.Show();
-                this.Close();
-            }
             else
             {
-                this.userAndPassErrors.Text = "Incorrect password. Please try again!";
-                this.passwordInput.Clear();
-            }            
+
+                var checker = new Checker(movieDatabase);
+                var user = checker.CheckUser(this.userNameInput.Text);
+
+                if (user != null)
+                {
+                    isPassCorrect = checker.IsUserPassCorrect(passwordInput.Password.ToString(), user);
+                }
+
+                if (user == null)
+                {
+                    this.userAndPassErrors.Text = userNameErrorMessage;
+                    this.userNameInput.Clear();
+                }
+                else if (isPassCorrect)
+                {
+                    LoggedInWindow logedInWindow = new LoggedInWindow(movieDatabase, user);
+                    logedInWindow.Show();
+                    this.Close();
+                }
+                else
+                {
+                    this.userAndPassErrors.Text = passwordErrorMessage;
+                    this.passwordInput.Clear();
+                }
+            }
+
         }
 
         private void signUpButton_Click(object sender, RoutedEventArgs e)
