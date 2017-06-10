@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesDatabaseWPF.Windows"
         mc:Ignorable="d"
-        Title="AdminWindow" Height="500" Width="500">
+        Title="AdminWindow" Height="400" Width="500">
     <Grid>
 
         <TextBlock x:Name="AdminUserName" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="183,10,0,0" Width="125" FontSize="16" Height="23"/>
         <Button x:Name="ShowMovieDbCollection" Content="MOVIES" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="40,270,0,0" Click="ShowMovieDbCollection_Click" Height="45" FontSize="18" RenderTransformOrigin="0.507,-0.351"/>
         <Button x:Name="AddMovieFromFile"  Content="Add Movie From File" HorizontalAlignment="Left" Margin="40,76,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.09,-0.241" Height="43"/>
-        <Button x:Name="AddMovieManually" Content="Add Movie Manually" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="40,144,0,0" Height="43"/>
+        <Button x:Name="AddMovieManually" Content="Add Movie Manually" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="40,144,0,0" Height="43" Click="AddMovieManually_Click"/>
         <Button x:Name="AddActorFromFile"  Content="Add Actor From File" HorizontalAlignment="Left" Margin="183,76,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.09,-0.241" Height="43"/>
         <Button x:Name="AddActorManualy"  Content="Add Actor Manually" HorizontalAlignment="Left" Margin="183,144,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.09,-0.241" Height="43"/>
         <Button x:Name="AddDirectorrFromFile"  Content="Add Director From File" HorizontalAlignment="Left" Margin="326,76,0,0" VerticalAlignment="Top" Width="125" RenderTransformOrigin="0.09,-0.241" Height="43"/>
@@ -19,6 +19,6 @@
         <Button x:Name="ShowActorsCollection" Content="Actors" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="183,270,0,0" Click="ShowMovieDbCollection_Click" Height="45" FontSize="18" RenderTransformOrigin="0.507,-0.351"/>
         <Button x:Name="ShowDirectorsCollection" Content="Directors" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="326,270,0,0" Click="ShowMovieDbCollection_Click" Height="45" FontSize="18" RenderTransformOrigin="0.507,-0.351"/>
         <TextBlock x:Name="ShowDbCollection" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" Text="All collections in Movie DB" VerticalAlignment="Top" Margin="40,206,0,0" Width="411" Height="43" FontSize="23"/>
-        <TextBox x:Name="Permissions" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="160" Margin="165,38,0,0"/>
+        <TextBox x:Name="Permissions" TextAlignment="Center" HorizontalAlignment="Left" Height="25" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="411" Margin="40,38,0,0"/>
     </Grid>
 </Window>

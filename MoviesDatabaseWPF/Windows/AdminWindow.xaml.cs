@@ -24,19 +24,28 @@ namespace MoviesDatabaseWPF.Windows
     {
         private readonly MovieDatabaseContext movieDatabase;
         private readonly MovieAdminsContext adminsDatabase;
-        private readonly Admin admin;
+        private readonly Admin currentAdmin;
+
         public AdminWindow(MovieDatabaseContext movieDatabase, MovieAdminsContext adminsDatabase, Admin admin)
         {
             this.movieDatabase = movieDatabase;
             this.adminsDatabase = adminsDatabase;
-            this.admin = admin;
+            this.currentAdmin = admin;
 
             InitializeComponent();
+
+            this.AdminUserName.Text = this.currentAdmin.UserName;
+            this.Permissions.Text = string.Join(", ", currentAdmin.Permissions.Select(x => string.Concat(x.Name)));
         }
 
         private void ShowMovieDbCollection_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void AddMovieManually_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

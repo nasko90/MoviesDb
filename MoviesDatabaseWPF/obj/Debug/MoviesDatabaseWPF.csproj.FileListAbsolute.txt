@@ -166,3 +166,8 @@ C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabaseWPF\obj\Debug\Windows\AdminW
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.exe
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.pdb
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.MoviesDatabaseWPF.exe.config
+C:\Users\NADIA\Desktop\New folder (2)\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.g.cs
+C:\Users\NADIA\Desktop\New folder (2)\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.baml
+C:\Users\NADIA\Desktop\New folder (2) - Copy\MoviesDatabaseWPF\bin\Debug\MoviesDatabaseWPF.exe.config
+C:\Users\NADIA\Desktop\New folder (2) - Copy\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.exe
+C:\Users\NADIA\Desktop\New folder (2) - Copy\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.pdb

@@ -13,13 +13,22 @@ namespace MovieAdminsPostgreeDb
     {
         static void Main(string[] args)
         {
+            var addMoviePermission = new Permission
+            {
+                Name = "Add movie"
+            };
+
+            var deleteMovie = new Permission
+            {
+                Name = "Delete Movie"
+            };
             var movieAdminsContext = new MovieAdminsContext();
             var admin = new Admin()
             {
                 UserName = "SuperAdmin",
                 ClearTextPassword = "0000",
                 Email = "admin@abv.bg",
-                Permissions = {movieAdminsContext.Permissions.Find(1), movieAdminsContext.Permissions.Find(2)}
+                Permissions = {addMoviePermission,deleteMovie}
             };
 
             movieAdminsContext.Admins.Add(admin);
