@@ -47,3 +47,13 @@ C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\bin\Debug\EntityFram
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll.config
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
