@@ -213,3 +213,7 @@ C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\obj\Debug\
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.g.resources
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.Properties.Resources.resources
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.GenerateResource.Cache
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.xml

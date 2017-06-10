@@ -15,6 +15,7 @@ namespace MoviesDatabaseWPF
     {
         private readonly MovieDatabaseContext movieDatabase;
         private readonly MovieAdminsContext adminDatabase;
+
         public Checker(MovieDatabaseContext movieDatabase)
         {
             this.movieDatabase = movieDatabase;

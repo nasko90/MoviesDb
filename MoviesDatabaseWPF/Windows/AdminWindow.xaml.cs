@@ -14,6 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MovieAdminsPostgreeDb.PostgreeDb.Context;
 using MovieDatabase.PostgreeDatabase.Models;
+using MoviesDatabaseWPF.Windows.Add_to_DB_windows;
 
 namespace MoviesDatabaseWPF.Windows
 {
@@ -45,7 +46,8 @@ namespace MoviesDatabaseWPF.Windows
 
         private void AddMovieManually_Click(object sender, RoutedEventArgs e)
         {
-            
+            var addMovieWindow = new AddMovieWindow(this.movieDatabase);
+            addMovieWindow.Show();            
         }
     }
 }

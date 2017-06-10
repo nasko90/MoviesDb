@@ -94,3 +94,19 @@ C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase\bin\Debug\Newtonsoft.Json.x
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase\obj\Debug\MoviesDatabase.csprojResolveAssemblyReference.cache
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase\obj\Debug\MoviesDatabase.exe
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase\obj\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\MoviesDatabase.exe.config
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\EntityFramework.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\Newtonsoft.Json.dll
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\EntityFramework.xml
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\bin\Debug\Newtonsoft.Json.xml
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\obj\Debug\MoviesDatabase.csprojResolveAssemblyReference.cache
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\obj\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase\obj\Debug\MoviesDatabase.pdb

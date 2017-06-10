@@ -80,6 +80,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Classes\AddMovieManually.cs" />
     <Compile Include="Classes\Checker.cs" />
     <Compile Include="Classes\Searcher.cs" />
     <Compile Include="ViewModelObjects\ViewModelMovie.cs" />
@@ -171,6 +172,10 @@
     <ProjectReference Include="..\MoviesDatabase.Models\MoviesDatabase.Models.csproj">
       <Project>{59092e04-9355-4d6b-8815-3d6f2e880ae6}</Project>
       <Name>MoviesDatabase.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MoviesDatabase\MoviesDatabase.csproj">
+      <Project>{30DADCC3-4CEE-42EB-B0B4-CCE67E3FE493}</Project>
+      <Name>MoviesDatabase</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

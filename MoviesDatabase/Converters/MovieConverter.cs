@@ -57,7 +57,7 @@ namespace MoviesDatabase
             }               
         }
 
-        private Actor AddOrUpdateActor(string actorName)
+        public Actor AddOrUpdateActor(string actorName)
         {
             var actor = this.movieDb.Actors.FirstOrDefault(x => x.Name.Equals(actorName));
             if (actor == null)
@@ -75,7 +75,7 @@ namespace MoviesDatabase
             return movie;
         }
 
-        private Director AddOrUpdateDirector(string directorName)
+        public Director AddOrUpdateDirector(string directorName)
         {
             var director = this.movieDb.Directors.FirstOrDefault(x => x.Name.Equals(directorName));
             if (director == null)
@@ -86,7 +86,7 @@ namespace MoviesDatabase
             return director;
         }
 
-        private Country AddOrUpdateCountry( string countryName)
+        public Country AddOrUpdateCountry( string countryName)
         {
             var country = this.movieDb.Countries.FirstOrDefault(x => x.Name.Equals(countryName));
             if (country == null)
@@ -97,7 +97,7 @@ namespace MoviesDatabase
             return country;
         }
 
-        private Genre AddOrUpdateGenre(string genreName)
+        public Genre AddOrUpdateGenre(string genreName)
         {
             var genre = this.movieDb.Genres.FirstOrDefault(x => x.Name.Equals(genreName));
             if (genre == null)
@@ -108,7 +108,7 @@ namespace MoviesDatabase
             return genre;
         }
 
-        private static IEnumerable<string> ConvertFromStringToIEnumerable(string stringToConvert)
+        public static IEnumerable<string> ConvertFromStringToIEnumerable(string stringToConvert)
         {        
             var actors = stringToConvert.Split(',').Select(a => a.Trim()).ToList(); ;
             return actors;
