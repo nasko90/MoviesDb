@@ -116,3 +116,23 @@ C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Context\obj\D
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csproj.GenerateResource.Cache
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\EntityFramework.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\MoviesDatabase.Models.dll.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\EntityFramework.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csprojResolveAssemblyReference.cache
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.InitialCreate.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingdateofbirhtcolumntoActorandDirector.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.AddingCountryIdcolumntoActorandDirector.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingcolumnGendertoActorsandDirectors.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.addingUniqueindextoCountryName.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.Migrations.makinguser_moviesratingandisWatchedcolumsnullable.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.csproj.GenerateResource.Cache
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Context\obj\Debug\MoviesDatabase.Context.pdb

@@ -57,3 +57,13 @@ C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\bin\De
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\EntityFramework.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\EntityFramework.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb

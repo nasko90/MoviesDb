@@ -16,7 +16,7 @@ namespace MoviesDatabase
         public static void Main(string[] args)
         {
 
-            /*
+            
             var path = "Movie.json";
             var actorsPath = "Actors.json";
             var parser = new Parser();
@@ -45,7 +45,7 @@ namespace MoviesDatabase
 
             db.User.Add(user);
             db.SaveChanges();
-            */
+            
            
         }
     }

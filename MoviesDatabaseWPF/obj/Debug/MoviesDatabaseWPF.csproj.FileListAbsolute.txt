@@ -217,3 +217,53 @@ C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.dll
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.pdb
 C:\Users\NADIA\Desktop\New folder (2) - Copy - Copy\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabaseWPF.exe.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabaseWPF.exe
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabaseWPF.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\EntityFramework.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.exe
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.Context.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.exe
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.Models.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\Npgsql.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\System.Linq.Dynamic.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.exe.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.Context.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.Context.dll.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.Models.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.Models.dll.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.pdb
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.exe.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\EntityFramework.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\Npgsql.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csprojResolveAssemblyReference.cache
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.MoviesDatabaseWPF.exe.config
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.g.cs
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.g.cs
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\LoggedInWindow.g.cs
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\SignUpWindow.g.cs
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\UserMovieCollectionWindow.g.cs
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\App.g.cs
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF_MarkupCompile.cache
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF_MarkupCompile.lref
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MainWindow.baml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.baml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.baml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\LoggedInWindow.baml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\SignUpWindow.baml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\UserMovieCollectionWindow.baml
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.g.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.Properties.Resources.resources
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.GenerateResource.Cache
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.exe
+C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.pdb
