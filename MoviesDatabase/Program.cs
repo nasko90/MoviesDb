@@ -17,26 +17,17 @@ namespace MoviesDatabase
         {
 
             
-            var path = "Movie.json";
-            var actorsPath = "Actors.json";
+            var path = "../../Movie.json";
+            var actorsPath = "../../Actors.json";
             var parser = new Parser();
             var movieDb = new MovieDatabaseContext();
 
             var parsedMovies = parser.ParseMovies(path);
             var movieConverter = new MovieConverter(movieDb);
-         
-            //foreach (var movie in parsedMovies)
-            //{
-            //    var movieToAdd = new Movie();
-            //    movieToAdd.Title = movie.Title;
-            //    movieToAdd.Plot = movie.Plot;
-            //    movieToAdd.Duration = int.Parse(movie.Duration);
-            //    movieToAdd.ImdbRating = movie.ImdbRating;
-            //    movieToAdd.ReleaseDate = movie.ReleaseDate;
-            //    movieToAdd.BoxOffice = long.Parse(movie.BoxOffice);
-
-            //    movieDb.Movies.Add(movieToAdd);
-            //}
+            foreach (var movie in parsedMovies)
+            {
+                movieConverter.AddOrUpdateToDatabase(movie);
+            }
 
             var parsedActors = parser.ParsePersons(actorsPath);
             var actorConverter = new ActorConverter(movieDb);
@@ -46,9 +37,7 @@ namespace MoviesDatabase
             }
                                                 
             var directorConverter = new DirectorConverter(movieDb);
-            var parsedDirectors = parser.ParsePersons("Directors.json");
-
-
+            var parsedDirectors = parser.ParsePersons("../../Directors.json");
             foreach (var director in parsedDirectors)
             {
                 directorConverter.AddOrUpdateDirectorInfo(director);
