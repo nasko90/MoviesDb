@@ -24,6 +24,7 @@ namespace MoviesDatabase
 
             var parsedMovies = parser.ParseMovies(path);
             var movieConverter = new MovieConverter(movieDb);
+         
             //foreach (var movie in parsedMovies)
             //{
             //    var movieToAdd = new Movie();

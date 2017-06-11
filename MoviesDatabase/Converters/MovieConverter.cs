@@ -25,14 +25,16 @@ namespace MoviesDatabase
             var movieCheck = CheckForExistingMovie(parsedMovie.Title);
             if (movieCheck == null)
             {
-                var movie = new Movie();
-                movie.Title = parsedMovie.Title;
-                movie.ImdbRating = parsedMovie.ImdbRating;
-                movie.Plot = parsedMovie.Plot;
-                movie.BoxOffice = ConvertFromStringToNum(parsedMovie.BoxOffice);
-                movie.ReleaseDate = parsedMovie.ReleaseDate;
-                movie.Duration = (int)ConvertFromStringToNum(parsedMovie.Duration);
-                movie.Director = AddOrUpdateDirector(parsedMovie.Director.Split(',')[0]);
+                var movie = new Movie
+                {
+                    Title = parsedMovie.Title,
+                    ImdbRating = parsedMovie.ImdbRating,
+                    Plot = parsedMovie.Plot,
+                    BoxOffice = ConvertFromStringToNum(parsedMovie.BoxOffice),
+                    ReleaseDate = parsedMovie.ReleaseDate,
+                    Duration = (int) ConvertFromStringToNum(parsedMovie.Duration),
+                    Director = AddOrUpdateDirector(parsedMovie.Director.Split(',')[0])
+                };
 
                 var actors = ConvertFromStringToIEnumerable(parsedMovie.Actors);
                 foreach (var actor in actors)

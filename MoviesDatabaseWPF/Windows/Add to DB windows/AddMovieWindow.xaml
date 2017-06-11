@@ -5,30 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesDatabaseWPF.Windows.Add_to_DB_windows"
         mc:Ignorable="d"
-        Title="AddMovieWindow" Height="600" Width="500">
-    <Grid>
+        Title="AddMovieWindow" Height="676" Width="556">
+    <Grid Margin="0,0,2,4">
         <TextBlock x:Name="Title" FontSize="20" HorizontalAlignment="Left" Margin="10,26,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Title: " VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="AddTitle" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Margin="118,26,0,0"/>
+        <TextBox x:Name="AddTitle" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="397" Margin="118,26,0,0" RenderTransformOrigin="0.5,0.5"/>
         <TextBlock x:Name="Duration" FontSize="20"  HorizontalAlignment="Left" Margin="10,73,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Duration: " VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="AddDration" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="122" Margin="118,74,0,0"/>
+        <TextBox x:Name="AddDration"  HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="122" Margin="118,74,0,0"/>
         <TextBlock x:Name="Actors" FontSize="20"  HorizontalAlignment="Left" Margin="10,120,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Actors: " VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="AddActors" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Margin="118,121,0,0"/>
+        <TextBox x:Name="AddActors" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="394" Margin="118,121,0,0"/>
         <TextBlock x:Name="Director" FontSize="20"  HorizontalAlignment="Left" Margin="10,168,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Director: " VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="AddDirector" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Margin="118,168,0,0"/>
+        <TextBox x:Name="AddDirector" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="394" Margin="118,168,0,0"/>
         <TextBlock x:Name="Genres" FontSize="20"  HorizontalAlignment="Left" Margin="10,213,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Genres:" VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="AddGenres" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Margin="118,213,0,0"/>
+        <TextBox x:Name="AddGenres" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="394" Margin="118,213,0,0"/>
         <TextBlock x:Name="Add" FontSize="18"  HorizontalAlignment="Left" Margin="10,305,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Box office: " VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.5,0.5"/>
         <TextBox x:Name="BoxOffice" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="122" Margin="118,305,0,0"/>
-        <TextBlock x:Name="Plot" FontSize="20"  HorizontalAlignment="Left" Margin="180,404,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Plot" VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="AddPlot" FontSize="14" HorizontalAlignment="Left" Height="97" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="420" Margin="30,436,0,0" />
-        <TextBlock x:Name="ErrorMessage" HorizontalAlignment="Left" TextAlignment="Center" Visibility="Hidden" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="30,349,0,0" Height="50" Width="420"/>
-        <Button x:Name="AddMovie" Content="AddMovie" HorizontalAlignment="Left" Margin="180,538,0,0" VerticalAlignment="Top" Width="90" Click="AddMovie_Click"/>
+        <TextBlock x:Name="Plot" FontSize="20"  HorizontalAlignment="Left" Margin="238,349,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Plot" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="AddPlot" FontSize="14" HorizontalAlignment="Left" Height="98" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="482" Margin="30,381,0,0" />
+        <TextBlock x:Name="ErrorMessage" HorizontalAlignment="Left" TextAlignment="Center" Visibility="Hidden" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="30,528,0,0" Height="103" Width="482"/>
+        <Button x:Name="AddMovie" Content="AddMovie" HorizontalAlignment="Left" Margin="238,484,0,0" VerticalAlignment="Top" Width="90" Click="AddMovie_Click"/>
         <TextBlock x:Name="AddImdRating" FontSize="18"  HorizontalAlignment="Left" Margin="253,305,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="IMDB rating: " VerticalAlignment="Top" Width="115"/>
-        <TextBox x:Name="IMDBrating" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62" Margin="388,305,0,0"/>
+        <TextBox x:Name="IMDBrating" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="124" Margin="388,305,0,0"/>
         <TextBlock x:Name="AddReleaseDate" FontSize="18"  HorizontalAlignment="Left" Margin="253,73,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Release date: " VerticalAlignment="Top" Width="115" RenderTransformOrigin="0.519,-1.458"/>
-        <TextBox x:Name="ReleaseDate" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="62" Margin="388,74,0,0"/>
+        <TextBox x:Name="ReleaseDate" FontSize="16" TextWrapping="Wrap" Text="" Margin="388,73,0,541" HorizontalAlignment="Left" Width="124"/>
         <TextBlock x:Name="AddCountries" FontSize="20"  HorizontalAlignment="Left" Margin="10,256,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Countries:" VerticalAlignment="Top" Width="90"/>
-        <TextBox x:Name="Countries" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Margin="118,257,0,0"/>
+        <TextBox x:Name="Countries" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="394" Margin="118,257,0,0"/>
 
     </Grid>
 </Window>

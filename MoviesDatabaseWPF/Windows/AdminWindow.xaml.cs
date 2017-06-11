@@ -2,18 +2,22 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Dynamic;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using MovieAdminsPostgreeDb.PostgreeDb.Context;
 using MovieDatabase.PostgreeDatabase.Models;
+using MoviesDatabase;
+using MoviesDatabase.ModelParsers;
 using MoviesDatabaseWPF.Windows.Add_to_DB_windows;
 
 namespace MoviesDatabaseWPF.Windows
@@ -48,6 +52,37 @@ namespace MoviesDatabaseWPF.Windows
         {
             var addMovieWindow = new AddMovieWindow(this.movieDatabase);
             addMovieWindow.Show();            
+        }
+
+        private void AddMovieFromFile_Click(object sender, RoutedEventArgs e)
+        {
+            OpenFileDialog dlg = new OpenFileDialog();
+            dlg.DefaultExt = ".json";
+            dlg.Filter = "Json Files (*.json)|*.json";
+            var result = dlg.ShowDialog();
+
+            var parser = new Parser();
+            var movieConverter = new MovieConverter(this.movieDatabase);
+            var messageBoxText = new StringBuilder();
+
+            if (result == System.Windows.Forms.DialogResult.OK)
+            {
+                // Open document 
+                messageBoxText.AppendLine("Films added in the database:");
+                var parsedMovies = parser.ParseMovies(dlg.FileName);
+                foreach (var parsedMovie in parsedMovies)
+                {
+                    if (!this.movieDatabase.Movies.Any(x => x.Title.Equals(parsedMovie.Title)))
+                    {
+                        messageBoxText.AppendLine(parsedMovie.Title);
+                    }
+
+                    movieConverter.AddOrUpdateToDatabase(parsedMovie);
+                }
+
+                System.Windows.MessageBox.Show(messageBoxText.ToString());
+            }
+
         }
     }
 }

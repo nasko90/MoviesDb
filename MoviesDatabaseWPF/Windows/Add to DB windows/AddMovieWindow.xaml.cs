@@ -1,6 +1,7 @@
 ﻿using MoviesDatabase.Context;
 using MoviesDatabaseWPF.Classes;
 using System.Windows;
+using MovieAdminsPostgreeDb.PostgreeDb.Context;
 
 namespace MoviesDatabaseWPF.Windows.Add_to_DB_windows
 {
@@ -9,7 +10,7 @@ namespace MoviesDatabaseWPF.Windows.Add_to_DB_windows
     /// </summary>
     public partial class AddMovieWindow : Window
     {
-        private MovieDatabaseContext movieDb;
+        private readonly MovieDatabaseContext movieDb;
 
         public AddMovieWindow(MovieDatabaseContext movieDb)
         {
@@ -26,9 +27,9 @@ namespace MoviesDatabaseWPF.Windows.Add_to_DB_windows
             var databaseUpdater = new DatabaseUpdater(this.movieDb);
 
             this.ErrorMessage.Text = databaseUpdater.AddMovieToDatabaseManually(
-                this.AddTitle.Text, this.Countries.Text, this.BoxOffice.Text,
-                this.Duration.Text, this.IMDBrating.Text, this.Actors.Text, this.Director.Text,
-                this.Genres.Text, this.ReleaseDate.Text, this.Plot.Text);
+                this.AddTitle.Text, this.AddCountries.Text, this.BoxOffice.Text,
+                this.AddDration.Text, this.IMDBrating.Text, this.AddActors.Text, this.AddDirector.Text,
+                this.AddGenres.Text, this.ReleaseDate.Text, this.AddPlot.Text);
 
             this.ErrorMessage.Visibility = Visibility.Visible;
         }

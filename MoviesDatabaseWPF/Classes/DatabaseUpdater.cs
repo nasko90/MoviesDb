@@ -11,6 +11,7 @@ namespace MoviesDatabaseWPF.Classes
 {
     public class DatabaseUpdater
     {
+        private const int FirstEverMovieReleaseYear = 1890;
         private readonly MovieDatabaseContext movieDb;
 
         public DatabaseUpdater(MovieDatabaseContext movieDb)
@@ -18,14 +19,35 @@ namespace MoviesDatabaseWPF.Classes
             this.movieDb = movieDb;
         }
 
-        public string AddMovieToDatabaseManually(string title, string countries, string boxOffice, string duration,
-                                         string imdbRating, string actors, string director,
-                                         string genres, string releaseDate, string plot)
+        public string AddMovieToDatabaseManually(string title, string countriesInput, string boxOffice, string duration,
+                                         string imdbRating, string actorsAsString, string director,
+                                         string genresInput, string releaseDate, string plot)
         {
             var movieToBeAdded = new Movie();
             var logMessage = new StringBuilder();
-            bool isMovieValid = true;
+            var isMovieValid = true;
             var movieConverter = new MovieConverter(this.movieDb);
+
+            var actors = MovieConverter.ConvertFromStringToIEnumerable(actorsAsString);
+            foreach (var actor in actors)
+            {
+                movieToBeAdded.Actors.Add(movieConverter.AddOrUpdateActor(actor));
+            }
+
+            var countries = MovieConverter.ConvertFromStringToIEnumerable(countriesInput);
+            foreach (var country in countries)
+            {
+                movieToBeAdded.Countries.Add(movieConverter.AddOrUpdateCountry(country));    
+            }
+
+            var genres = MovieConverter.ConvertFromStringToIEnumerable(genresInput);
+            foreach (var genre in genres)
+            {
+                movieToBeAdded.Genres.Add(movieConverter.AddOrUpdateGenre(genre));
+            }
+
+            movieToBeAdded.Director = movieConverter.AddOrUpdateDirector(director);
+            movieToBeAdded.Plot = plot;
 
             if (this.movieDb.Movies.FirstOrDefault(x => x.Title.ToLower().Equals(title.ToLower())) == null)
             {
@@ -34,47 +56,58 @@ namespace MoviesDatabaseWPF.Classes
             else
             {
                 isMovieValid = false;
-                logMessage.AppendLine("This movie already exist in the Database!");
+                logMessage.AppendLine("This movie already exist in the Database! ");
             }
 
-            if (ConvertBoxOffice(boxOffice) != long.MinValue)
+            if (ConvertDuration(duration) < 0)
+            {
+                isMovieValid = false;
+                logMessage.AppendLine("Invalid Duration value! ");
+            }
+            else
+            {
+                movieToBeAdded.Duration = ConvertDuration(duration);               
+            }
+
+            if (ConvertBoxOffice(boxOffice) < 0)
+            {
+                isMovieValid = false;
+                logMessage.AppendLine("Invalid Box Office value! ");
+
+            }
+            else
             {
                 movieToBeAdded.BoxOffice = ConvertBoxOffice(boxOffice);
             }
-            else
+
+            if (ConvertImdbRating(imdbRating) < 1 || ConvertImdbRating(imdbRating) > 10)
             {
                 isMovieValid = false;
-                logMessage.AppendLine("Invalid Box Office value");
+                logMessage.AppendLine("Invalid Imdb Rating value! ");
             }
-
-            if (ConvertImdbRating(imdbRating) != double.MinValue)
+            else
             {
                 movieToBeAdded.ImdbRating = ConvertImdbRating(imdbRating);
             }
-            else
+
+            if (ConvertReleaseDate(releaseDate).Year < FirstEverMovieReleaseYear)
             {
                 isMovieValid = false;
-                logMessage.AppendLine("Invalid Imdb Rating value");
+                logMessage.AppendLine("Invalid Release Date format! ");
             }
-
-            if (ConvertReleaseDate(releaseDate) != DateTime.MinValue)
+            else
             {
                 movieToBeAdded.ReleaseDate = ConvertReleaseDate(releaseDate);
             }
-            else
-            {
-                isMovieValid = false;
-                logMessage.AppendLine("Invalid Release Date format!");
-            }
-
-            movieToBeAdded.Plot = plot;
-
 
             if (isMovieValid)
             {
+                this.movieDb.Movies.Add(movieToBeAdded);
+                this.movieDb.SaveChanges();
                 return "Succesfully added movie to the Database";
             }
-           
+
+            logMessage.AppendLine("No movie was added to the database!");
             return logMessage.ToString();
         }
 
@@ -87,6 +120,17 @@ namespace MoviesDatabaseWPF.Classes
             }
 
             return double.MinValue;
+        }
+
+        private int ConvertDuration(string movieDuration)
+        {
+            int duration;
+            if (int.TryParse(movieDuration, out duration))
+            {
+                return duration;
+            }
+
+            return int.MinValue;
         }
 
         private DateTime ConvertReleaseDate(string releaseDate)
