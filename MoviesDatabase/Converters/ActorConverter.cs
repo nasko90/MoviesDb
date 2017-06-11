@@ -28,6 +28,15 @@ namespace MoviesDatabase.Converters
                 actor.Gender = parsedPerson.Gender;
                 actor.DateOfBirth = parsedPerson.DateOfBirth;
             }
+            else
+            {
+                var actorToAdd = new Actor();
+                actorToAdd.Country = AddOrUpdateCountry(GetCountryName(parsedPerson.PlaceOfBirth));
+                actorToAdd.Name = parsedPerson.Name;
+                actorToAdd.DateOfBirth = parsedPerson.DateOfBirth;
+                actorToAdd.Gender = parsedPerson.Gender;
+                movieDb.Actors.Add(actorToAdd);
+            }
 
             this.movieDb.SaveChanges();
 
