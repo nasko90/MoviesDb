@@ -76,8 +76,6 @@ C:\Users\NADIA\Desktop\Team project\MoviesDatabase\bin\Debug\Newtonsoft.Json.xml
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase\obj\Debug\MoviesDatabase.csprojResolveAssemblyReference.cache
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase\obj\Debug\MoviesDatabase.exe
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase\obj\Debug\MoviesDatabase.pdb
-C:\Users\NADIA\Desktop\Team project\MoviesDatabase\bin\Debug\MovieDatabase.PostgreeDatabase.dll
-C:\Users\NADIA\Desktop\Team project\MoviesDatabase\bin\Debug\MovieDatabase.PostgreeDatabase.pdb
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase\bin\Debug\MoviesDatabase.exe.config
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase\bin\Debug\MoviesDatabase.exe
 C:\Users\Nadia\Desktop\New folder (2)\MoviesDatabase\bin\Debug\MoviesDatabase.pdb

@@ -267,3 +267,20 @@ C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesData
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.GenerateResource.Cache
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.exe
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.pdb
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\EntityFramework6.Npgsql.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.exe
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.exe
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\Npgsql.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.dll
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.pdb
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.pdb
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\EntityFramework6.Npgsql.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\Npgsql.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.xml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.MoviesDatabaseWPF.exe.config
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.g.cs
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.g.cs
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.baml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.baml

@@ -17,8 +17,8 @@
         <TextBox x:Name="AddDirector" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Margin="118,168,0,0"/>
         <TextBlock x:Name="Genres" FontSize="20"  HorizontalAlignment="Left" Margin="10,213,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Genres:" VerticalAlignment="Top" Width="90"/>
         <TextBox x:Name="AddGenres" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="332" Margin="118,213,0,0"/>
-        <TextBlock x:Name="BoxOffice" FontSize="18"  HorizontalAlignment="Left" Margin="10,305,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Box office: " VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.5,0.5"/>
-        <TextBox x:Name="AddBoxOffice" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="122" Margin="118,305,0,0"/>
+        <TextBlock x:Name="Add" FontSize="18"  HorizontalAlignment="Left" Margin="10,305,0,0" TextAlignment="Right" TextWrapping="Wrap" Text="Box office: " VerticalAlignment="Top" Width="90" RenderTransformOrigin="0.5,0.5"/>
+        <TextBox x:Name="BoxOffice" HorizontalAlignment="Left" FontSize="16" Height="26" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="122" Margin="118,305,0,0"/>
         <TextBlock x:Name="Plot" FontSize="20"  HorizontalAlignment="Left" Margin="180,404,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Plot" VerticalAlignment="Top" Width="90"/>
         <TextBox x:Name="AddPlot" FontSize="14" HorizontalAlignment="Left" Height="97" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="420" Margin="30,436,0,0" />
         <TextBlock x:Name="ErrorMessage" HorizontalAlignment="Left" TextAlignment="Center" Visibility="Hidden" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="30,349,0,0" Height="50" Width="420"/>

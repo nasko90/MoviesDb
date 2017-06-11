@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\
 MoviesDatabaseWPF
 none
 false
 DEBUG;TRACE
-C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\App.xaml
+C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\App.xaml
 6-627299964
 
-141046705484
-77-1213738015
+141512117590
+77-1574663685
 MainWindow.xaml;Windows\Add to DB windows\AddMovieWindow.xaml;Windows\AdminWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
 
 False
