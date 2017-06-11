@@ -18,15 +18,25 @@ namespace MoviesDatabase.Converters
             this.movieDb = movieDb;
         }
 
-        public void UpdateDirectorInfo(PersonParser parsedPerson)
+        public void AddOrUpdateDirectorInfo(PersonParser parsedPerson)
         {
             var director = this.movieDb.Directors.FirstOrDefault(x => x.Name.Equals(parsedPerson.Name));
-            if (!(director == null))
+            if (director != null)
             {
-
                 director.Country = AddOrUpdateCountry(GetCountryName(parsedPerson.PlaceOfBirth));
                 director.Gender = parsedPerson.Gender;
                 director.DateOfBirth = parsedPerson.DateOfBirth;
+            }
+            else
+            {
+                var newDirector = new Director
+                {
+                    Name = parsedPerson.Name,
+                    Country = AddOrUpdateCountry(GetCountryName(parsedPerson.PlaceOfBirth)),
+                    Gender = parsedPerson.Gender,
+                    DateOfBirth = parsedPerson.DateOfBirth
+                };
+                this.movieDb.Directors.Add(newDirector);
             }
 
             this.movieDb.SaveChanges();

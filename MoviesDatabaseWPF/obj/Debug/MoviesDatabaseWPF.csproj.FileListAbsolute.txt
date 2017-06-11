@@ -284,3 +284,5 @@ C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to D
 C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.g.cs
 C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.baml
 C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.baml
+C:\Users\Nadia\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.g.cs
+C:\Users\Nadia\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.baml

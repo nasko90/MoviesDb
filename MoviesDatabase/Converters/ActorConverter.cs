@@ -18,10 +18,10 @@ namespace MoviesDatabase.Converters
             this.movieDb = movieDb;
         }
 
-        public void UpdateActorInfo(PersonParser parsedPerson)
+        public void AddOrUpdateActorInfo(PersonParser parsedPerson)
         {
             var actor = this.movieDb.Actors.FirstOrDefault(x => x.Name.Equals(parsedPerson.Name));
-            if (!(actor == null))
+            if (actor != null)
             {
 
                 actor.Country = AddOrUpdateCountry(GetCountryName(parsedPerson.PlaceOfBirth));
@@ -30,11 +30,13 @@ namespace MoviesDatabase.Converters
             }
             else
             {
-                var actorToAdd = new Actor();
-                actorToAdd.Country = AddOrUpdateCountry(GetCountryName(parsedPerson.PlaceOfBirth));
-                actorToAdd.Name = parsedPerson.Name;
-                actorToAdd.DateOfBirth = parsedPerson.DateOfBirth;
-                actorToAdd.Gender = parsedPerson.Gender;
+                var actorToAdd = new Actor
+                {
+                    Country = AddOrUpdateCountry(GetCountryName(parsedPerson.PlaceOfBirth)),
+                    Name = parsedPerson.Name,
+                    DateOfBirth = parsedPerson.DateOfBirth,
+                    Gender = parsedPerson.Gender
+                };
                 movieDb.Actors.Add(actorToAdd);
             }
 

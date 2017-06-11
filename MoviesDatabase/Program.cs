@@ -42,7 +42,7 @@ namespace MoviesDatabase
             var actorConverter = new ActorConverter(movieDb);
             foreach (var actor in parsedActors)
             {
-                actorConverter.UpdateActorInfo(actor);               
+                actorConverter.AddOrUpdateActorInfo(actor);               
             }
                                                 
             var directorConverter = new DirectorConverter(movieDb);
@@ -51,7 +51,7 @@ namespace MoviesDatabase
 
             foreach (var director in parsedDirectors)
             {
-                directorConverter.UpdateDirectorInfo(director);
+                directorConverter.AddOrUpdateDirectorInfo(director);
             }
             /*
             var db = new MovieDatabaseContext();

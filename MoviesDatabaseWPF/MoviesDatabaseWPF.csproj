@@ -85,6 +85,9 @@
     <Compile Include="Classes\Checker.cs" />
     <Compile Include="Classes\Searcher.cs" />
     <Compile Include="ViewModelObjects\ViewModelMovie.cs" />
+    <Compile Include="Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml.cs">
+      <DependentUpon>AddDirectorOrActorFromFile.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Add to DB windows\AddMovieWindow.xaml.cs">
       <DependentUpon>AddMovieWindow.xaml</DependentUpon>
     </Compile>
@@ -112,6 +115,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\Add to DB windows\AddMovieWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

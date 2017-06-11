@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Nadia\Desktop\Team project\MoviesDatabaseWPF\App.xaml
-6-627299964
+72096935794
 
-141512117590
+151882162672
 78-1298168235
-MainWindow.xaml;Windows\Add to DB windows\AddMovieWindow.xaml;Windows\AdminWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
+MainWindow.xaml;Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml;Windows\Add to DB windows\AddMovieWindow.xaml;Windows\AdminWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
 
 False
 
