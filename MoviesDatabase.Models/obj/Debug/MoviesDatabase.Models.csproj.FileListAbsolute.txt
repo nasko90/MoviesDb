@@ -64,7 +64,6 @@ C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\Entity
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\EntityFramework.xml
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.dll
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.pdb
 C:\Users\NADIA\Desktop\Team project\MoviesDatabase.Models\obj\Debug\MoviesDatabase.Models.csprojResolveAssemblyReference.cache

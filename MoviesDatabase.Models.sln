@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesDatabaseWPF", "Movies
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieAdminsPostgreeDb", "MovieAdminsPostgreeDb\MovieAdminsPostgreeDb.csproj", "{06DA75F1-05AA-428C-8BA9-B3155C896708}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSQLiteDB", "MoviesSQLiteDB\MoviesSQLiteDB.csproj", "{46C999C4-6ED3-47A8-AF3A-F6DF7FF47F2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesCommentsSQLiteDb", "MoviesCommentsSQLiteDb\MoviesCommentsSQLiteDb.csproj", "{46C999C4-6ED3-47A8-AF3A-F6DF7FF47F2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
