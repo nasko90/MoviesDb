@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\
 MoviesDatabaseWPF
 none
 false
 DEBUG;TRACE
-C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\App.xaml
-72096935794
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\App.xaml
+8-43375515
 
-19399050754
-78335942920
-MainWindow.xaml;Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml;Windows\Add to DB windows\AddMovieWindow.xaml;Windows\AdminWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
+20268092146
+781153319395
+MainWindow.xaml;Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml;Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.xaml;Windows\Add to DB windows\AddMovieWindow.xaml;Windows\AdminWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
 
 True
 

@@ -62,3 +62,19 @@ C:\Users\NADIA\Desktop\Team project\MovieAdminsPostgreeDb\bin\Debug\System.Threa
 C:\Users\NADIA\Desktop\Team project\MovieAdminsPostgreeDb\obj\Debug\MovieAdminsPostgreeDb.csprojResolveAssemblyReference.cache
 C:\Users\NADIA\Desktop\Team project\MovieAdminsPostgreeDb\obj\Debug\MovieAdminsPostgreeDb.exe
 C:\Users\NADIA\Desktop\Team project\MovieAdminsPostgreeDb\obj\Debug\MovieAdminsPostgreeDb.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\MovieAdminsPostgreeDb.exe.config
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\MovieAdminsPostgreeDb.exe
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\MovieAdminsPostgreeDb.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\EntityFramework.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\EntityFramework.SqlServer.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\EntityFramework6.Npgsql.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\Npgsql.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\EntityFramework.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\EntityFramework.SqlServer.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\EntityFramework6.Npgsql.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\Npgsql.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\obj\Debug\MovieAdminsPostgreeDb.csprojResolveAssemblyReference.cache
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\obj\Debug\MovieAdminsPostgreeDb.exe
+D:\Курсове Телерик\Бази данни\Курсов проект\MovieAdminsPostgreeDb\obj\Debug\MovieAdminsPostgreeDb.pdb

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MoviesDatabase.Models.Models.Enums;
 
 namespace MoviesDatabaseWPF.Classes
 {
@@ -90,14 +91,14 @@ namespace MoviesDatabaseWPF.Classes
                 movieToBeAdded.ImdbRating = ConvertImdbRating(imdbRating);
             }
 
-            if (ConvertReleaseDate(releaseDate).Year < FirstEverMovieReleaseYear)
+            if (ConvertDate(releaseDate).Year < FirstEverMovieReleaseYear)
             {
                 isMovieValid = false;
                 logMessage.AppendLine("Invalid Release Date format! ");
             }
             else
             {
-                movieToBeAdded.ReleaseDate = ConvertReleaseDate(releaseDate);
+                movieToBeAdded.ReleaseDate = ConvertDate(releaseDate);
             }
 
             if (isMovieValid)
@@ -108,6 +109,102 @@ namespace MoviesDatabaseWPF.Classes
             }
 
             logMessage.AppendLine("No movie was added to the database!");
+            return logMessage.ToString();
+        }
+
+        public string AddActorToDatabase(string name, string dateOfBirth, string nationality, string gender)
+        {
+            var logMessage = new StringBuilder();
+            var isActorInValidFormat = true;
+
+            if (this.movieDb.Actors.Any(x => x.Name.Equals(name)))
+            {
+                isActorInValidFormat = false;
+                logMessage.AppendLine("The actor already exist in the Database");
+            }
+
+            var actor = new Actor {Name = name};
+
+            Gender actorGender;
+            if (Enum.TryParse(gender, out actorGender))
+            {
+                actor.Gender = actorGender;
+            }
+            else
+            {
+                isActorInValidFormat = false;
+                logMessage.AppendLine("Invalid gender");
+            }
+
+            DateTime birhtDate;
+            if (DateTime.TryParse(dateOfBirth,out birhtDate))
+            {
+                actor.DateOfBirth = birhtDate;
+            }
+            else
+            {
+                isActorInValidFormat = false;
+                logMessage.AppendLine("Invalid Date format");
+            }
+
+            
+            actor.Country = GetNationality(nationality);
+
+            if (isActorInValidFormat)
+            {
+                this.movieDb.Actors.Add(actor);
+                this.movieDb.SaveChanges();
+                logMessage.AppendLine("The actor was successfully added to the Database");
+            }
+
+            return logMessage.ToString();
+        }
+
+        public string AddDirectorToDatabase(string name, string dateOfBirth, string nationality, string gender)
+        {
+            var logMessage = new StringBuilder();
+            var isDirectorValid = true;
+
+            if (this.movieDb.Directors.Any(x => x.Name.Equals(name)))
+            {
+                isDirectorValid = false;
+                logMessage.AppendLine("The actor already exist in the Database");
+            }
+
+            var director = new Director() { Name = name };
+
+            Gender actorGender;
+            if (Enum.TryParse(gender, out actorGender))
+            {
+                director.Gender = actorGender;
+            }
+            else
+            {
+                isDirectorValid = false;
+                logMessage.AppendLine("Invalid gender");
+            }
+
+            DateTime birhtDate;
+            if (DateTime.TryParse(dateOfBirth, out birhtDate))
+            {
+                director.DateOfBirth = birhtDate;
+            }
+            else
+            {
+                isDirectorValid = false;
+                logMessage.AppendLine("Invalid Date format");
+            }
+
+
+            director.Country = GetNationality(nationality);
+
+            if (isDirectorValid)
+            {
+                this.movieDb.Directors.Add(director);
+                this.movieDb.SaveChanges();
+                logMessage.AppendLine("The director was successfully added to the Database");
+            }
+
             return logMessage.ToString();
         }
 
@@ -133,7 +230,7 @@ namespace MoviesDatabaseWPF.Classes
             return int.MinValue;
         }
 
-        private DateTime ConvertReleaseDate(string releaseDate)
+        private DateTime ConvertDate(string releaseDate)
         {
             DateTime date;
             if (DateTime.TryParse(releaseDate, out date))
@@ -155,6 +252,21 @@ namespace MoviesDatabaseWPF.Classes
             return long.MinValue;
         }
 
+        private Country GetNationality(string nationality)
+        {
+            Country country = this.movieDb.Countries.FirstOrDefault(x => x.Name.Equals(nationality));
+            if (country == null)
+            {
+                return new Country
+                {
+                    Name = nationality
+                };
+            }
 
+            return country;
+        }
+
+       
+            
     }
 }

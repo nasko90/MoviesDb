@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="AddDirectorOrActorFromFile" Height="170" Width="250">
     <Grid>
-        <TextBlock x:Name="textBlock" FontSize="16" HorizontalAlignment="Center" Margin="52,10,48,0" TextWrapping="Wrap" Text="Choose in which category to add?" VerticalAlignment="Top" Width="142" Height="58"/>
-        <RadioButton x:Name="Actors" Content="Actors" HorizontalAlignment="Left" Margin="25,73,0,0" VerticalAlignment="Top" Height="17"/>
-        <RadioButton x:Name="Directors" Content="Directors" HorizontalAlignment="Left" Margin="138,73,0,0" VerticalAlignment="Top" Height="17"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="75,109,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" FontSize="16" HorizontalAlignment="Center" Margin="25,10,25,0" TextWrapping="Wrap" Text="Choose in which category to add?" VerticalAlignment="Top" Width="192" Height="58"/>
+        <RadioButton x:Name="Actors" Content="Actors" HorizontalAlignment="Left" Margin="25,78,0,0" VerticalAlignment="Top" Height="17" Width="62"/>
+        <RadioButton x:Name="Directors" Content="Directors" HorizontalAlignment="Left" Margin="140,78,0,0" VerticalAlignment="Top" Height="17" Width="77"/>
+        <Button x:Name="button" Content="Add" HorizontalAlignment="Left" Margin="81,109,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
 
     </Grid>
 </Window>

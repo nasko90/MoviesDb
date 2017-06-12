@@ -59,6 +59,7 @@ namespace MoviesDatabaseWPF.Windows.Add_to_DB_windows
                             {
                                 messageBoxText.Append(director.Name + ", ");
                             }
+
                             directorConv.AddOrUpdateDirectorInfo(director);
                         }
                     }
@@ -66,7 +67,7 @@ namespace MoviesDatabaseWPF.Windows.Add_to_DB_windows
                 }
                 catch (Exception exception)
                 {
-                    messageBoxText.AppendLine("Erorr in adding actors file");
+                    messageBoxText.AppendLine("Erorr in adding actors/directors file! ");
                 }    
 
                 this.Close();               

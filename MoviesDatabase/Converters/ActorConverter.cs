@@ -44,7 +44,7 @@ namespace MoviesDatabase.Converters
 
         }
 
-        private Country AddOrUpdateCountry(string countryName)
+        public Country AddOrUpdateCountry(string countryName)
         {
             var country = this.movieDb.Countries.FirstOrDefault(x => x.Name.Equals(countryName));
             if (country == null)

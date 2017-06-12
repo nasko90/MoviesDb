@@ -288,3 +288,24 @@ C:\Users\Nadia\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to D
 C:\Users\Nadia\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.baml
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.g.cs
 C:\Users\Plmn Tnsv\Desktop\Movie-Database\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\EntityFramework6.Npgsql.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.exe
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.exe
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\Npgsql.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\MovieAdminsPostgreeDb.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\MoviesDatabase.pdb
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\EntityFramework6.Npgsql.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\Npgsql.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.MoviesDatabaseWPF.exe.config
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.baml

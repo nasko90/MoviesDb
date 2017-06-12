@@ -105,5 +105,11 @@ namespace MoviesDatabaseWPF.Windows
             mainWindow.Show();
             this.Close();
         }
+
+        private void AddActorOrDirectorManualy_Click(object sender, RoutedEventArgs e)
+        {
+            var addActorOrDirectorManuallyWindow = new AddDirectorOrActorManuallyWindow(this.movieDatabase);
+            addActorOrDirectorManuallyWindow.Show();
+        }
     }
 }
