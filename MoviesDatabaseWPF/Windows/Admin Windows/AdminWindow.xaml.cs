@@ -1,25 +1,17 @@
 ﻿using MoviesDatabase.Context;
 using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Dynamic;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
 using System.Windows.Forms;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using MovieAdminsPostgreeDb.PostgreeDb.Context;
 using MovieDatabase.PostgreeDatabase.Models;
 using MoviesDatabase;
 using MoviesDatabase.ModelParsers;
 using MoviesDatabaseWPF.Windows.Add_to_DB_windows;
-using MessageBox = System.Windows.MessageBox;
+using MoviesDatabaseWPF.ViewModelObjects;
+using MoviesDatabaseWPF.Windows.Admin_Windows;
 
 namespace MoviesDatabaseWPF.Windows
 {
@@ -46,7 +38,22 @@ namespace MoviesDatabaseWPF.Windows
 
         private void ShowMovieDbCollection_Click(object sender, RoutedEventArgs e)
         {
+            var listOfMovies = movieDatabase.Movies.AsEnumerable().Select(movie => new ViewModelMovie
+            {
+                Title = movie.Title,
+                Duration = movie.Duration + " minutes",
+                Genres = string.Join(", ", movie.Genres.Select(x => string.Concat(x.Name))),
+                Director = movie.Director.Name,
+                Actors = string.Join(", ", movie.Actors.Select(x => string.Concat(x.Name))),
+                ReleaseDate = movie.ReleaseDate.ToString("MMMM dd, yyyy"),
+                Countries = string.Join(", ", movie.Countries.Select(x => string.Concat(x.Name))),
+                BoxOffice = movie.BoxOffice.ToString("# ###"),
+                ImdbRating = movie.ImdbRating,
+                Plot = movie.Plot
+            });
 
+            var collectionWindow = new CollectionsWindow(listOfMovies.ToList());
+            collectionWindow.Show();
         }
 
         private void AddMovieManually_Click(object sender, RoutedEventArgs e)
@@ -111,5 +118,33 @@ namespace MoviesDatabaseWPF.Windows
             var addActorOrDirectorManuallyWindow = new AddDirectorOrActorManuallyWindow(this.movieDatabase);
             addActorOrDirectorManuallyWindow.Show();
         }
+
+        private void ShowActorsCollection_Click(object sender, RoutedEventArgs e)
+        {          
+            var listOfActors = movieDatabase.Actors.AsEnumerable().Select(person => new ViewModelPerson
+            {
+                Name = person.Name,
+                DateOfBirth = person.DateOfBirth != null ? person.DateOfBirth.ToString() : "N/A",
+                Nationality = person.Country != null ? person.Country.Name : "N/A",
+                Gender = person.Gender.ToString()
+            });
+
+            var collectionWindow = new CollectionsWindow( listOfActors.ToList());
+            collectionWindow.Show();
+        }
+
+        private void ShowDirectorCollection_Click(object sender, RoutedEventArgs e)
+        {
+            var listOfDirectors = movieDatabase.Directors.AsEnumerable().Select(direcotr => new ViewModelPerson
+            {
+                Name = direcotr.Name,
+                DateOfBirth = direcotr.DateOfBirth != null ? direcotr.DateOfBirth.ToString() : "N/A",
+                Nationality = direcotr.Country != null ? direcotr.Country.Name : "N/A",
+                Gender = direcotr.Gender.ToString()
+            });
+
+            var collectionWindow = new CollectionsWindow(listOfDirectors.ToList());
+            collectionWindow.Show();
+        }    
     }
 }

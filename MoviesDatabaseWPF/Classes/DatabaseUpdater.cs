@@ -202,7 +202,7 @@ namespace MoviesDatabaseWPF.Classes
             {
                 this.movieDb.Directors.Add(director);
                 this.movieDb.SaveChanges();
-                logMessage.AppendLine("The director was successfully added to the Database");
+                logMessage.AppendLine("The director  was successfully added to the Database");
             }
 
             return logMessage.ToString();

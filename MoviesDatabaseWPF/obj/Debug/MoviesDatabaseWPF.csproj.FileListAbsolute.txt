@@ -300,12 +300,15 @@ D:\Курсове Телерик\Бази данни\Курсов проект\M
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\Npgsql.xml
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\Newtonsoft.Json.xml
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.MoviesDatabaseWPF.exe.config
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.g.cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.g.cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.g.cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorFromFile.baml
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddMovieWindow.baml
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\AdminWindow.baml
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.g.cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\itextsharp.dll
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\itextsharp.xml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AddDirectorOrActorFromFile.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AddDirectorOrActorManuallyWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AddMovieWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AdminWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AddDirectorOrActorFromFile.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AddDirectorOrActorManuallyWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AddMovieWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AdminWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\CollectionsWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\CollectionsWindow.baml

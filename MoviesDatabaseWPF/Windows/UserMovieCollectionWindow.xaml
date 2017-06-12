@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MoviesDatabaseWPF.Windows"
         mc:Ignorable="d"
-        Title="UserMovieCollectionWindow" Height="300" Width="1000" WindowStartupLocation="CenterScreen">
+        Title="UserMovieMovieCollectionWindow" Height="300" Width="1000" WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="67*"/>

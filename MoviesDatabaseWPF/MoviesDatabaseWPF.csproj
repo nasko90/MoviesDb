@@ -47,6 +47,10 @@
       <HintPath>..\packages\EntityFramework6.Npgsql.3.1.1\lib\net45\EntityFramework6.Npgsql.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="itextsharp, Version=5.5.11.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.11\lib\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Npgsql, Version=3.2.3.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
       <HintPath>..\packages\Npgsql.3.2.3\lib\net451\Npgsql.dll</HintPath>
       <Private>True</Private>
@@ -84,18 +88,23 @@
     <Compile Include="Classes\DatabaseUpdater.cs" />
     <Compile Include="Classes\Checker.cs" />
     <Compile Include="Classes\Searcher.cs" />
+    <Compile Include="ViewModelObjects\IViewable.cs" />
     <Compile Include="ViewModelObjects\ViewModelMovie.cs" />
-    <Compile Include="Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml.cs">
+    <Compile Include="ViewModelObjects\ViewModelPerson.cs" />
+    <Compile Include="Windows\Admin Windows\AddDirectorOrActorFromFile.xaml.cs">
       <DependentUpon>AddDirectorOrActorFromFile.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.xaml.cs">
+    <Compile Include="Windows\Admin Windows\AddDirectorOrActorManuallyWindow.xaml.cs">
       <DependentUpon>AddDirectorOrActorManuallyWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\Add to DB windows\AddMovieWindow.xaml.cs">
+    <Compile Include="Windows\Admin Windows\AddMovieWindow.xaml.cs">
       <DependentUpon>AddMovieWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\AdminWindow.xaml.cs">
+    <Compile Include="Windows\Admin Windows\AdminWindow.xaml.cs">
       <DependentUpon>AdminWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Admin Windows\CollectionsWindow.xaml.cs">
+      <DependentUpon>CollectionsWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\LoggedInWindow.xaml.cs">
       <DependentUpon>LoggedInWindow.xaml</DependentUpon>
@@ -118,19 +127,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml">
+    <Page Include="Windows\Admin Windows\AddDirectorOrActorFromFile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.xaml">
+    <Page Include="Windows\Admin Windows\AddDirectorOrActorManuallyWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\Add to DB windows\AddMovieWindow.xaml">
+    <Page Include="Windows\Admin Windows\AddMovieWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\AdminWindow.xaml">
+    <Page Include="Windows\Admin Windows\AdminWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Admin Windows\CollectionsWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\App.xaml
-8-43375515
+91298403173
 
-1638775976
-781153319395
-MainWindow.xaml;Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml;Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.xaml;Windows\Add to DB windows\AddMovieWindow.xaml;Windows\AdminWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
+19-683508925
+79821737386
+MainWindow.xaml;Windows\Admin Windows\AddDirectorOrActorFromFile.xaml;Windows\Admin Windows\AddDirectorOrActorManuallyWindow.xaml;Windows\Admin Windows\AddMovieWindow.xaml;Windows\Admin Windows\AdminWindow.xaml;Windows\Admin Windows\CollectionsWindow.xaml;Windows\LoggedInWindow.xaml;Windows\SignUpWindow.xaml;Windows\UserMovieCollectionWindow.xaml;
 
 False
 

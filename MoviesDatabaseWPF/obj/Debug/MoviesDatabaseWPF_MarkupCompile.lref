@@ -1,10 +1,11 @@
 ﻿
 
 FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\MainWindow.xaml;;
-FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Add to DB windows\AddDirectorOrActorFromFile.xaml;;
-FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Add to DB windows\AddDirectorOrActorManuallyWindow.xaml;;
-FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Add to DB windows\AddMovieWindow.xaml;;
-FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\AdminWindow.xaml;;
+FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Admin Windows\AddDirectorOrActorFromFile.xaml;;
+FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Admin Windows\AddDirectorOrActorManuallyWindow.xaml;;
+FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Admin Windows\AddMovieWindow.xaml;;
+FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Admin Windows\AdminWindow.xaml;;
+FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\Admin Windows\CollectionsWindow.xaml;;
 FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\LoggedInWindow.xaml;;
 FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\SignUpWindow.xaml;;
 FD:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\Windows\UserMovieCollectionWindow.xaml;;
