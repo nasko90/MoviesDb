@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="CollectionsWindow"  Width="Auto" Height="Auto" SizeToContent="WidthAndHeight" WindowStartupLocation="CenterScreen">
     <Grid>
-        <DataGrid x:Name="ShowMovies" AutoGenerateColumns="True"/>
+        <DataGrid x:Name="ShowMovies" AutoGenerateColumns="True" IsReadOnly="True"/>
 
     </Grid>
 </Window>

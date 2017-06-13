@@ -33,24 +33,12 @@ namespace MoviesDatabaseWPF.Windows
             InitializeComponent();
 
             this.AdminUserName.Text = this.currentAdmin.UserName;
-            this.Permissions.Text = string.Join(", ", currentAdmin.Permissions.Select(x => string.Concat(x.Name)));
+            this.Permissions.Text = string.Join(", ", this.currentAdmin.Permissions.Select(x => string.Concat(x.Name)));
         }
 
         private void ShowMovieDbCollection_Click(object sender, RoutedEventArgs e)
-        {
-            var listOfMovies = movieDatabase.Movies.AsEnumerable().Select(movie => new ViewModelMovie
-            {
-                Title = movie.Title,
-                Duration = movie.Duration + " minutes",
-                Genres = string.Join(", ", movie.Genres.Select(x => string.Concat(x.Name))),
-                Director = movie.Director.Name,
-                Actors = string.Join(", ", movie.Actors.Select(x => string.Concat(x.Name))),
-                ReleaseDate = movie.ReleaseDate.ToString("MMMM dd, yyyy"),
-                Countries = string.Join(", ", movie.Countries.Select(x => string.Concat(x.Name))),
-                BoxOffice = movie.BoxOffice.ToString("# ###"),
-                ImdbRating = movie.ImdbRating,
-                Plot = movie.Plot
-            });
+        {         
+            var listOfMovies = ViewModelMovie.GetViewModelMovies(this.movieDatabase);
 
             var collectionWindow = new CollectionsWindow(listOfMovies.ToList());
             collectionWindow.Show();
@@ -75,8 +63,7 @@ namespace MoviesDatabaseWPF.Windows
 
             if (result == System.Windows.Forms.DialogResult.OK)
             {
-                // Open document 
-             
+                // Open document              
                 try
                 {
                     var parsedMovies = parser.ParseMovies(dlg.FileName);
@@ -91,7 +78,7 @@ namespace MoviesDatabaseWPF.Windows
                         movieConverter.AddOrUpdateToDatabase(parsedMovie);
                     }
                 }
-                catch (Exception exception)
+                catch (Exception)
                 {
                     messageBoxText.AppendLine("Erorr in parsing the JSON file, no movies were added! ");
                 }
@@ -121,7 +108,7 @@ namespace MoviesDatabaseWPF.Windows
 
         private void ShowActorsCollection_Click(object sender, RoutedEventArgs e)
         {          
-            var listOfActors = movieDatabase.Actors.AsEnumerable().Select(person => new ViewModelPerson
+            var listOfActors = this.movieDatabase.Actors.AsEnumerable().Select(person => new ViewModelPerson
             {
                 Name = person.Name,
                 DateOfBirth = person.DateOfBirth != null ? person.DateOfBirth.ToString() : "N/A",
@@ -129,7 +116,7 @@ namespace MoviesDatabaseWPF.Windows
                 Gender = person.Gender.ToString()
             });
 
-            var collectionWindow = new CollectionsWindow( listOfActors.ToList());
+            var collectionWindow = new CollectionsWindow(listOfActors.ToList());
             collectionWindow.Show();
         }
 

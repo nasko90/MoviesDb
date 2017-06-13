@@ -17,8 +17,8 @@
         <PasswordBox x:Name="passwordInput"  HorizontalAlignment="Left" Margin="242,125,0,0" VerticalAlignment="Top" Width="160" Height="44" FontSize="24"/>
         <Button x:Name="login" Content="LOG IN" VerticalAlignment="Top" RenderTransformOrigin="2.21,11.413" Margin="83,196,115,0" Height="49" FontSize="24" Click="login_Click"/>
         <TextBlock x:Name="userAndPassErrors" TextAlignment="Center" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="83,174,0,0" Height="22" Width="319"/>
-        <TextBlock x:Name="signUp" HorizontalAlignment="Left" Margin="83,273,0,0" TextWrapping="Wrap" Text="You are new to Movie Db? "  VerticalAlignment="Top" Height="24" Width="187" FontSize="16"/>
-        <Button x:Name="signUpButton" BorderBrush="White"  Content="Sign Up" VerticalAlignment="Top" Margin="275,270,178,0" FontSize="16" Background="{x:Null}" Click="signUpButton_Click"/>
+        <TextBlock x:Name="signUp" HorizontalAlignment="Left" Margin="83,273,0,0" TextWrapping="Wrap" Text="You are new to Movie Db? "  VerticalAlignment="Top" Height="24" Width="213" FontSize="16"/>
+        <Button x:Name="signUpButton" BorderBrush="White"  Content="Sign Up" VerticalAlignment="Top" Margin="321,271,115,0" FontSize="16" Background="{x:Null}" Click="signUpButton_Click"/>
         <CheckBox x:Name="LogAsAdminCheckBox" Content="Log as Admin" HorizontalAlignment="Left" Margin="192,247,0,0" VerticalAlignment="Top" FontSize="14"/>
     </Grid>
 </Window>

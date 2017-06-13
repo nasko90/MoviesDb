@@ -1,5 +1,6 @@
 ﻿using MoviesDatabase.Context;
 using MoviesDatabase.Models.Models;
+using MoviesDatabaseWPF.ViewModelObjects;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -26,6 +27,10 @@ namespace MoviesDatabaseWPF.ViewModelObjects
             ImdbRating = movie.ImdbRating;
             Plot = movie.Plot;
         }
+        public ViewModelMovie()
+        {
+
+        }
 
         public int Id { get; set; }
 
@@ -47,10 +52,7 @@ namespace MoviesDatabaseWPF.ViewModelObjects
 
         public string Plot { get; set; }
 
-        public ViewModelMovie()
-        {
-            
-        }
+      
 
         public static IEnumerable<ViewModelMovie> ConvertMoviesToVeiwModelMovies(IEnumerable<Movie> movies)
         {
@@ -62,6 +64,50 @@ namespace MoviesDatabaseWPF.ViewModelObjects
             }
 
             return viewModelMovies;
+        }
+
+        public static IEnumerable<ViewModelMovie> GetViewModelMovies(MovieDatabaseContext movieDatabase)
+        {
+            var listOfMovies = movieDatabase.Movies.AsEnumerable().Select(movie => new ViewModelMovie
+            {
+                Id = movie.Id,
+                Title = movie.Title,
+                Duration = movie.Duration + " minutes",
+                Genres = string.Join(", ", movie.Genres.Select(x => string.Concat(x.Name))),
+                Director = movie.Director.Name,
+                Actors = string.Join(", ", movie.Actors.Select(x => string.Concat(x.Name))),
+                ReleaseDate = movie.ReleaseDate.ToString("MMMM dd, yyyy"),
+                Countries = string.Join(", ", movie.Countries.Select(x => string.Concat(x.Name))),
+                BoxOffice = movie.BoxOffice.ToString("# ###"),
+                ImdbRating = movie.ImdbRating,
+                Plot = movie.Plot
+            });
+
+            return  listOfMovies;
+        }
+
+        public static IEnumerable<ViewModelMovie> GetUserMovies(MovieDatabaseContext movieDatabase, int userId)
+        {
+            var listOfMovies = from movie in movieDatabase.Movies.AsEnumerable() 
+                               join movieUser in movieDatabase.Movies_Users on movie.Id equals movieUser.MovieId
+                               join user in movieDatabase.User on movieUser.UserId equals user.Id
+                               where user.Id == userId                              
+                               select  ( new ViewModelMovie
+            {
+                Id = movie.Id,
+                Title = movie.Title,
+                Duration = movie.Duration + " minutes",
+                Genres = string.Join(", ", movie.Genres.Select(x => string.Concat(x.Name))),
+                Director = movie.Director.Name,
+                Actors = string.Join(", ", movie.Actors.Select(x => string.Concat(x.Name))),
+                ReleaseDate = movie.ReleaseDate.ToString("MMMM dd, yyyy"),
+                Countries = string.Join(", ", movie.Countries.Select(x => string.Concat(x.Name))),
+                BoxOffice = movie.BoxOffice.ToString("# ###"),
+                ImdbRating = movie.ImdbRating,
+                Plot = movie.Plot
+            });
+
+            return listOfMovies;
         }
     }    
 }

@@ -47,6 +47,7 @@ namespace MoviesDatabaseWPF.Windows.Add_to_DB_windows
                             {
                                 messageBoxText.Append(actor.Name + ", ");
                             }
+
                             actorConv.AddOrUpdateActorInfo(actor);                          
                         }
                     }
@@ -62,7 +63,9 @@ namespace MoviesDatabaseWPF.Windows.Add_to_DB_windows
 
                             directorConv.AddOrUpdateDirectorInfo(director);
                         }
+
                     }
+
                     System.Windows.MessageBox.Show(messageBoxText.ToString());
                 }
                 catch (Exception exception)

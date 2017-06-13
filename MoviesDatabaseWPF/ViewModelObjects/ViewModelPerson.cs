@@ -19,9 +19,9 @@ namespace MoviesDatabaseWPF.ViewModelObjects
         }
 
         public ViewModelPerson()
-        {
-            
+        {           
         }
+
         public string Name { get; set; }
 
         public string DateOfBirth { get; set; }
@@ -30,4 +30,6 @@ namespace MoviesDatabaseWPF.ViewModelObjects
 
         public string Gender { get; set; }
     }
+
+
 }

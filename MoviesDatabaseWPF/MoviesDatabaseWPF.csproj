@@ -66,6 +66,7 @@
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
@@ -87,6 +88,7 @@
     </ApplicationDefinition>
     <Compile Include="Classes\DatabaseUpdater.cs" />
     <Compile Include="Classes\Checker.cs" />
+    <Compile Include="Classes\PdfExporter.cs" />
     <Compile Include="Classes\Searcher.cs" />
     <Compile Include="ViewModelObjects\IViewable.cs" />
     <Compile Include="ViewModelObjects\ViewModelMovie.cs" />
@@ -106,14 +108,11 @@
     <Compile Include="Windows\Admin Windows\CollectionsWindow.xaml.cs">
       <DependentUpon>CollectionsWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\LoggedInWindow.xaml.cs">
+    <Compile Include="Windows\User Windows\LoggedInWindow.xaml.cs">
       <DependentUpon>LoggedInWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Windows\SignUpWindow.xaml.cs">
+    <Compile Include="Windows\User Windows\SignUpWindow.xaml.cs">
       <DependentUpon>SignUpWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\UserMovieCollectionWindow.xaml.cs">
-      <DependentUpon>UserMovieCollectionWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -147,17 +146,13 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\LoggedInWindow.xaml">
+    <Page Include="Windows\User Windows\LoggedInWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Windows\SignUpWindow.xaml">
+    <Page Include="Windows\User Windows\SignUpWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
-    </Page>
-    <Page Include="Windows\UserMovieCollectionWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>

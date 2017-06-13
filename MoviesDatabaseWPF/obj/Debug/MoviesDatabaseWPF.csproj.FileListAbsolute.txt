@@ -64,10 +64,6 @@ D:\Курсове Телерик\Бази данни\Курсов проект\M
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.GenerateResource.Cache
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\MainWindow.g.cs
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\MainWindow.baml
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\SignUpWindow.g.cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\SignUpWindow.baml
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\LoggedInWindow.g.cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\LoggedInWindow.baml
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabaseWPF\bin\Debug\MoviesDatabaseWPF.exe.config
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.exe
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.pdb
@@ -94,8 +90,6 @@ C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabaseWPF\obj\Debug\Windo
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.g.resources
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.Properties.Resources.resources
 C:\Users\NADIA\Desktop\Proekt\Project\MoviesDb\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.csproj.GenerateResource.Cache
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\UserMovieCollectionWindow.g.cs
-D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\UserMovieCollectionWindow.baml
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\bin\Debug\System.Linq.Dynamic.dll
 C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\bin\Debug\MoviesDatabaseWPF.exe.config
 C:\Users\NADIA\Desktop\Team project\MoviesDatabaseWPF\obj\Debug\MoviesDatabaseWPF.exe
@@ -312,3 +306,7 @@ D:\Курсове Телерик\Бази данни\Курсов проект\M
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\AdminWindow.baml
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\CollectionsWindow.g.cs
 D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\Admin Windows\CollectionsWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\User Windows\LoggedInWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\User Windows\SignUpWindow.g.cs
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\User Windows\LoggedInWindow.baml
+D:\Курсове Телерик\Бази данни\Курсов проект\MoviesDatabaseWPF\obj\Debug\Windows\User Windows\SignUpWindow.baml
